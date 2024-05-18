@@ -136,7 +136,7 @@ let panUtil = {
         return this.getUrlPrefix() + '/file/preview?fileId=' + this.handleId(fileId) + '&authorization=' + getToken()
     },
     getUrlPrefix() {
-        return 'http://127.0.0.1:8082'
+        return 'http://pan.tangrl.cn/api'
     },
     getChunkSize() {
         if (this.getChunkUploadSwitch()) {
