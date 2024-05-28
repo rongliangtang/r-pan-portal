@@ -47,9 +47,10 @@ const router = useRouter()
 
 const loading = ref(false)
 
+// 设置默认账号和密码
 const loginForm = reactive({
-    username: '',
-    password: ''
+    username: 'testuser',
+    password: '12345678'
 })
 
 const fileStore = useFileStore()
