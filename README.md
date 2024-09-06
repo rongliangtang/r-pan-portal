@@ -1,37 +1,19 @@
-# r-pan-portal
-网盘项目的前端界面
+# r-pan
+R-Pan 是一个**简单易用、支持分布式存储**的网盘系统。
 
-# RUN
-This template should help get you started developing with Vue 3 in Vite.
+**"R"** 取自我的名字，用以代表该项目。
 
-## Recommended IDE Setup
+这个仓库为前端代码，更详细的介绍和后端代码仓库地址可以在 [R-Pan-Server](https://github.com/rongliangtang/r-pan-server) 找到。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and
-disable Vetur)
+[在线体验地址](https://pan.tangrl.cn)
 
-+ [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 如何运行
+以下是本地运行该前端服务的步骤：
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-# TODO
-1. 实现页面的ajax，每次点击对应一个url，从而可以使用浏览器的前进后退功能。
